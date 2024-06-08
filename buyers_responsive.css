@@ -1,0 +1,232 @@
+@media screen and (max-width: 1799px) {}
+
+
+@media screen and (max-width: 1599px) {}
+
+
+@media screen and (max-width: 1408px){
+    .baner-title h1 {
+        font-size: 48px;
+    }
+}
+
+
+@media screen and (max-width: 1216px) {
+    .theme-padding{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .baner-title h1 {
+        font-size: 42px;
+    }
+    .loan-section-title h1 {
+        font-size: 38px;
+    }
+    .registration-contant {
+        width: 680px;
+        top: 0;
+    }
+}
+
+
+@media screen and (max-width: 1180px){
+    section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .baner-title h1 {
+        font-size: 48px;
+    }
+    .legal-subtitle h2 {
+        font-size: 18px;
+    }
+    .mb-20 h2 {
+        margin-bottom: 30px ;
+    }
+    .section-title h1 {
+        font-size: 34px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .baner-title h1 {
+        font-size: 42px;
+    }
+    .loan-section-title h1 {
+        font-size: 34px;
+    }
+    .section-title h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .section-description p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .registration-contant {
+        background-color: #00000080;
+        width: 100%;
+        top: 0 !important;
+        margin: 0 auto;
+        top: 50%;
+        left: 0;
+        right: 0;
+        /* transform: translateY(-50%); */
+    }
+    /* .tax-section{
+        padding-left: 30px !important ; 
+    }   */
+    /* .tax-section .tax_img img {
+        padding-right: 40px !important;
+    } */
+    .tax_img{
+        display: flex;
+        justify-content: center;
+    }
+    .registration-contant {
+        top: -59px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px){
+    .registration-contant {
+        width: 100%;
+        max-width: 100%;
+        position: static;
+    }
+    .section-description p {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media screen and (max-width: 880px){
+    .accordions {
+        padding: 0;
+        position: relative;
+    }
+    .registration-contant {
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+    .line-br{
+       width: 100%;
+    }
+    .accordion img {
+        right: 20px;
+        top: 34px;
+    }
+    .loan-section-paragraph p {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .legal-text p {
+        font-family: "Poppins", sans-serif;
+    }
+    section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .loan-section-title h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .registration-contant {
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+    .line-br{
+       width: 100%;
+    }
+    .accordions {
+        padding: 10px;
+        position: relative;
+    }
+    .tax-section{
+        /* padding-top: 0 !important;*/
+        /* padding-bottom: 0 !important;  */
+        padding-right: 40px !important;
+      }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .accordions {
+        padding: 0px;
+    }
+    section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .section-title h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    button.accordion {
+        padding: 15px 26px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .baner-title {
+        top: 50%;
+    }
+    .accordion img {
+        right: 0px;
+        top: 23px;
+    }
+    .theme-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .footer-bg {
+    display: none;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .tax-section {
+        padding-right: 30px !important;
+    }
+    .baner-title h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .loan-section-title h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .legal-subtitle h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .baner-title h1 {
+        font-size: 26px;
+    }
+    .section-title h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+}
+

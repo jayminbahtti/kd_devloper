@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bulma.css">
+    <link rel="stylesheet" href="/css/bulma1.css">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+<body>
+    
+    <div id="register-modal" class="theme-modal is-active">
+        <div class="theme-modal-background"></div>
+        <div class="theme-modal-card">
+          <button class="close close1" aria-label="close" onclick="closeForm()" fdprocessedid="kvsykd">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="37" y="11.9998" width="1.21" height="35" transform="rotate(45 37 11.9998)" fill="#00617D"></rect>
+              <rect x="37.998" y="37" width="1.20717" height="35" transform="rotate(135 37.998 37)" fill="#00617D"></rect>
+            </svg>
+      
+          </button>
+          <div class="theme-modal-card-body">
+            <div class="contact-us-model">
+              <div class="columns is-multiline is-gapless">
+                <div class="column is-12-mobile is-12-tablet is-5-desktop is-5-widescreen col-main-form">
+                  <div class="contact-us-modal-detail">
+                    <div class="col-midel-inner">
+                      <picture>
+                        
+                        <img src="/images/form-bg.png" width="" height="" alt="Modal">
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-12-mobile is-12-tablet is-7-desktop is-7-widescreen col-main-form">
+                  <div class="contact-form">
+                    <form class="nobottommargin" id="inquiry" name="scontactform" onsubmit="validateInquiryForm('inquiry')&amp;disableButton()" action="https://foxtron.in/krushan-dham/include/inc-leads.php" method="post" novalidate="" autocomplete="off">
+                      <h3 id="leadmodaltitle" class="modal-title">Get In Touch</h3>
+                      <div class="inner-form">
+                        <div class="columns is-multiline is-mobile is-vcentered row-register">
+                          <div class="column is-12-mobile is-6-tablet is-6-desktop is-6-widescreen col-register">
+                            <div class="col-form">
+                              <span>First Name*</span>
+                              <input type="text" class="sm-form-control fname white-text custom-placeholder" name="fname" id="inquiry-fname" minlength="1" maxlength="100" required="" fdprocessedid="nvlzzn">
+                              <label class="error-msg1 fnameerror" id="inquiryformerror-1"></label>
+                            </div>
+                          </div>
+                          <div class="column is-12-mobile is-6-tablet is-6-desktop is-6-widescreen col-register">
+                            <div class="col-form">
+                              <span>Last Name*</span>
+                              <input type="text" class="sm-form-control lname custom-placeholder" name="lname" id="inquiry-lname" min-length="1" max-length="100" required="" fdprocessedid="vpv5t1">
+                              <label class="error-msg1" id="inquiryformerror-2"></label>
+                            </div>
+                          </div>
+                          <div class="column is-12-mobile is-12-tablet is-6-desktop is-6-widescreen col-register">
+                            <div class="col-form">
+                              <span>Mobile Number*</span>
+                              <input type="text" class="sm-form-control phone numeric custom-phone-control custom-placeholder" name="phone" id="inquiry-phone" maxlength="10" pattern="^[6-9]{6,14}$" required="" fdprocessedid="w5xg2s">
+                              <label class="error-msg1" id="inquiryformerror-3"></label>
+                            </div>
+                          </div>
+                          <div class="column is-12-mobile is-12-tablet is-6-desktop is-6-widescreen col-register">
+                            <div class="col-form">
+                              <span>Email Address*</span>
+                              <input type="text" class="sm-form-control email custom-placeholder" name="email" id="inquiry-email" required="" fdprocessedid="rq8h6i">
+                              <label class="error-msg1" id="inquiryformerror-4"></label>
+                            </div>
+                          </div>
+                          <div class="column is-12-mobile is-12-tablet is-12-desktop is-12-widescreen col-register">
+                            <div class="col-form">
+                              <span>Message</span>
+                              <textarea class="message sm-form-control custom-placeholder" name="message" id="message" cols="7" rows="3"></textarea>
+                            </div>
+                          </div>
+                                              <input type="hidden" name="formtype" id="formtype" value="enquire">
+                          <input type="hidden" name="tracker_code" value="">
+                          <input type="hidden" name="gclid" value="">
+                          <input type="hidden" name="site_url" value="https://foxtron.in/krushan-dham/">
+                          <input type="hidden" name="contact" value="">
+                          <input type="hidden" name="random_val" value="12345678901234567890">
+                          <div class="column is-12-mobile is-12-tablet is-12-desktop is-12-widescreen col-register">
+                            <button class="theme-btn full-width inquiry-submit white-btn" type="submit" id="inquiry-submit" name="submit" value="submit" ><span>Submit</span></button>
+                          </div>
+                        </div>
+                      </div>
+                    <input type="hidden" name="USOURCE" value=""><input type="hidden" name="UMEDIUM" value=""><input type="hidden" name="UCAMPAIGN" value=""><input type="hidden" name="UCONTENT" value=""><input type="hidden" name="UTERM" value=""><input type="hidden" name="IREFERRER" value="direct"><input type="hidden" name="LREFERRER" value="direct"><input type="hidden" name="ILANDPAGE" value="https%3A//foxtron.in/krushan-dham/"><input type="hidden" name="VISITS" value="12"></form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+</html>
+
+

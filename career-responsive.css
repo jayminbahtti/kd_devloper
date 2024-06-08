@@ -1,0 +1,183 @@
+@media screen and (max-width: 1799px) {}
+
+
+@media screen and (max-width: 1599px) {}
+
+
+@media screen and (max-width: 1408px){}
+
+
+@media screen and (max-width: 1216px) {
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .theme-padding{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .baner-title h1 {
+        font-size: 50px;
+    }
+  
+    .form-section {
+        padding: 0px 40px;
+    }
+    .section-title h1 {
+        font-size: 34px;
+    }
+}
+
+
+@media screen and (max-width: 1180px){
+
+    .baner-title{
+        top: 50%;
+    }
+    .baner-title h1 {
+        font-size: 50px;
+        line-height: 56px;
+    }
+    .section-title h1 {
+        font-size: 34px;
+    }
+    .bg-leave-img {
+        position: absolute;
+        right: -5%;
+        top: 9%;
+        z-index: -1;
+    }   
+}
+
+
+@media screen and (max-width: 1024px) {
+   
+    .theme-padding{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .section-title h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .form-section {
+        padding: 0px 60px;
+    }
+    .bg-leave-img {
+        position: absolute;
+        right: 0%;
+        top: 21%;
+        z-index: -1;
+        max-width: 201px;
+    }
+    .form-section {
+        padding: 0px;
+    }
+   
+}
+
+
+@media screen and (max-width: 991px) {
+  
+ 
+}
+
+
+@media screen and (max-width: 880px){
+    .theme-padding {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+   
+    .section-title h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .baner-title {
+        top: 50%;
+    }
+    .bg-leave-img {
+        position: absolute;
+        right: -3%;
+        top: 21%;
+        z-index: -1;
+        max-width: 172px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .theme-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .baner-title h1 {
+        font-size: 38px;
+    }
+    .section-title h1 {
+        margin-bottom: 10px;
+    }
+    .bg-leave-img {
+        position: absolute;
+        right: -6%;
+        top: 21%;
+        z-index: -1;
+        max-width: 130px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .form-section {
+        padding: 0px    0px;
+    }
+    .baner-title h1 {
+        font-size: 36px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    section{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .bg-leave-img {
+        /* position: absolute;
+        right: -22%;
+        top: 16%;
+        z-index: -1;
+        max-width: 136px; */
+        display: none;
+    }
+    .form-input input {
+        height: 35px;
+    }
+    .form-input textarea {
+        height: 100px;
+    }
+    .section-title h1 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media screen and (max-width: 420px) {
+    .baner-title h1 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 380px) {}
+
+
+@media screen and (max-width: 360px) {}
+
