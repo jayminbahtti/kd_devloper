@@ -87,7 +87,7 @@ top: 0 !important;
 } */
 
 .legal-section{
-    background-image: url('../images/Buyer’s/legal-bg.jpg');
+    background-image: url('legal-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
