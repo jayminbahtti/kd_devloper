@@ -162,7 +162,7 @@ color: #1D8492;
 
 /* LEGACY SECTION CSS */
 .legacy-section{
-    background-image: url(../images/LEGACY-IMG.png);
+    background-image: url(LEGACY-IMG.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
